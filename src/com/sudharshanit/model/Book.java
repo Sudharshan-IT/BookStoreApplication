@@ -12,6 +12,11 @@ public class Book {
 		this.authorName = authorName;
 		this.price = price;
 	}
+	@Override
+	public String toString() {
+		return "Book [bookId=" + bookId + ", bookName=" + bookName + ", authorName=" + authorName + ", price=" + price
+				+ "]";
+	}
 	
 	
 }
