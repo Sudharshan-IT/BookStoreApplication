@@ -11,7 +11,6 @@ public class BookStoreTest {
 		System.out.println("**** Book List ******");
 		bookList.forEach(book->System.out.println(book));
 	}
-
 	public static void main(String[] args) {
 		System.out.println("Welcome To Book Store");
 		List<Book> bookList=new  ArrayList<>();
